@@ -1,0 +1,24 @@
+# Supply Chain Analytics — Inventory & Demand Forecasting Platform
+# Python 3.9+
+
+# Data & numerics
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Time-series forecasting
+statsmodels>=0.14.0
+prophet>=1.1.0
+
+# Metrics & ML utilities
+scikit-learn>=1.3.0
+
+# Database (use one of)
+# PostgreSQL
+psycopg2-binary>=2.9.0
+# Snowflake (optional)
+# snowflake-connector-python[pandas]>=3.0.0
+# sqlalchemy>=2.0.0
+
+# Config (optional)
+python-dotenv>=1.0.0
